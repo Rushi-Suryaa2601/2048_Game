@@ -1,0 +1,86 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+hr{
+    width: 500px;
+
+}
+
+#board{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(187, 173, 160);
+    border: 6px solid rgb(187, 173, 160);
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile{
+    width: 90px;
+    height: 90px;
+    border: 5px solid #bbada0;
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(238, 228, 218, 0.35);
+}
+
+.x2{
+    background-color: #eee4da;
+    color: #727371;
+}
+.x4{
+    background-color: #ece0ca;
+    color: #727371;
+}
+.x8{
+    background-color: #f4b17a;
+    color:rgb(249, 246, 242);
+}
+
+.x16{
+    background-color: rgb(246, 150, 100);
+    color:rgb(249, 246, 242);
+}
+
+.x32{
+    background-color: rgb(247, 124, 95);
+    color:rgb(249, 246, 242);
+}
+.x64{
+    background-color: rgb(220, 44, 4);
+    color:rgb(249, 246, 242);
+}
+.x128{
+    background-color: rgba(255, 47, 0, 0.888);
+    color:rgb(249, 246, 242);
+}
+.x256{
+    background-color: rgb(199, 60, 29);
+    color:rgb(249, 246, 242);
+}
+.x512{
+    background-color: rgb(161, 29, 0);
+    color:rgb(249, 246, 242);
+}
+.x1024{
+    background-color: rgb(255, 79, 39);
+    color:rgb(249, 246, 242);
+}
+.x2048{
+    background-color: rgb(221, 7, 7);
+    color:rgb(249, 246, 242);
+}
+.x4096{
+    background-color: rgb(196, 20, 0);
+    color:rgb(249, 246, 242);
+}
+.x8192{
+    background-color: rgb(255, 47, 0);
+    color:rgb(249, 246, 242);
+}
